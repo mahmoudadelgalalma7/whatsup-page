@@ -1,0 +1,58 @@
+@import url('https://fontlibrary.org//face/droid-arabic-kufi');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body * {
+    font-family: 'DroidArabicKufiRegular';
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+/* Start Header */
+header {
+    height: 20vh;
+}
+.maarof {
+    background-color:#01FEAB;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+    direction: rtl;
+    gap:25px;
+}
+.maarof img {
+    width:100px;
+    height:100px;
+}
+.maarof p {
+    text-align: right;
+    line-height: 1.9;
+}
+
+/* Start Body  */
+
+.section {
+    height:80vh;
+    background-color:#CCC;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.section img {
+    height:200px;
+    width:200px;
+}
+
+.section a {
+    color:#0bba7f;
+    text-decoration: none;
+    text-align: center;
+}
